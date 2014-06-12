@@ -252,19 +252,6 @@ a {
   float: left;
 }
 
-.paperback .buy {
-  display: block;
-  position: relative;
-  float: left;
-  background-color: red;
-  height: 41px;
-  width: 96px;
-  left: 241px;
-  top: -70px;
-  border-radius: 15%;
-}
-
-
 /* HELPER */
 .none {
   display: none;
