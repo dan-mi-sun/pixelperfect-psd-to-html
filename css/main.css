@@ -82,10 +82,19 @@ nav ol li a {
   position: relative;
   float: left;
   background-color: yellow;
-  height: 50px;
+  height: 41px;
   width: 96px;
   left: 70px;
   border-radius: 15%;
+}
+
+a.sprite-icons {
+  background: transparent url('../img/a-little-bit_icons_50x226.png') no-repeat top right;
+  display: block;
+  height: 39px;
+  background-position-x: 38px;
+  background-position-y: -104px;
+  padding-right: 86px;
 }
 
 /* MAIN PRODUCTS */
