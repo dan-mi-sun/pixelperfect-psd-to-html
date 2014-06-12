@@ -1,0 +1,82 @@
+body {
+ background: url(../img/grid_w936_c96_g24.png) repeat-y center top;
+}
+
+.wrapper {
+  width: 936px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.logo-container {
+  position: relative;
+  display: inline;
+  float: left;
+  width: 240px;
+}
+
+.alb-logo {
+  background: rgba(0, 0, 0, 0) url(../img/alb-logotype.png) no-repeat scroll left top;
+  top: 54px;
+  display: block;
+  height: 48px;
+  left: 94px;
+  position: absolute;
+  text-indent:-100%;
+  width: 130px;
+  overflow: hidden;
+}
+
+b.icon-bulb {
+  width: 94px;
+  height: 95px;
+  background-color: #FB46CA;
+  display: block;
+/*  position: absolute;
+  top: 0px;
+  left: 0px; */
+  border-radius: 100px;
+}
+
+b.bar {
+  width: 936px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* START NAV MENU */
+
+nav {
+  height: 40px;
+  margin-left: 250px;
+  margin-right: 50px;
+}
+
+nav ol {
+  font-family: Arial, Verdana;
+  font-size: 20px;
+  margin: 0;
+  padding: 10px;
+  list-style: none;
+}
+
+nav ol li {
+  display: block;
+  position: relative;
+  float: left;
+}
+
+nav ol li a {
+  display: block;
+  text-decoration: none;
+  padding: 7px 7px; 
+  color: #000;  
+  margin-left: 1px;
+  white-space: nowrap;
+  height:30px; /* Width and height of top-level nav items */
+  width:70px;
+  text-align:center;}
+
+/* HELPER */
+.none {
+  display: none;
+}
