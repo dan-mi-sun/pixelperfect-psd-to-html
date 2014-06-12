@@ -26,6 +26,15 @@ body {
   overflow: hidden;
 }
 
+.icon {
+  background: transparent url('../img/a-little-bit_icons_50x226.png') no-repeat top right;
+  display: block;
+  height: 84px;
+  background-position-x: 24px;
+  background-position-y: -4px;
+  padding-right: 86px;
+}
+
 b.icon-bulb {
   width: 94px;
   height: 95px;
@@ -86,6 +95,17 @@ nav ol li a {
   width: 96px;
   left: 70px;
   border-radius: 15%;
+}
+
+b.cart-number {
+  width: 27px;
+  height: 27px;
+  background-color: red;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px; 
+  border-radius: 100px;
 }
 
 a.sprite-icons {
