@@ -227,7 +227,7 @@ a.sprite-icons {
   text-align: center;
   line-height: 41px;
   font-size: 18px;
-  display: none;
+  /* display: none; */
 }
 
 .purchase-button a:visited {
