@@ -47,7 +47,7 @@ b.bar {
 
 nav {
   height: 40px;
-  margin-left: 250px;
+  margin-left: 335px;
   margin-right: 50px;
 }
 
@@ -79,7 +79,7 @@ nav ol li a {
 /* MAIN PRODUCTS */
 .product-img {
   background: rgba(0, 0, 0, 0) url(../img/a-little-bit_product-944x452.jpg) no-repeat scroll left top;
-  top: 200px;
+  top: 250px;
   display: block;
   height: 452px;
   left: 252px;
