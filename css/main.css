@@ -54,6 +54,7 @@ nav {
 nav ol {
   font-family: Arial, Verdana;
   font-size: 20px;
+  text-transform: uppercase;
   margin: 0;
   padding: 10px;
   list-style: none;
