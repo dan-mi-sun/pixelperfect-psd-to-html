@@ -76,6 +76,19 @@ nav ol li a {
   width:70px;
   text-align:center;}
 
+/* MAIN PRODUCTS */
+.product-img {
+  background: rgba(0, 0, 0, 0) url(../img/a-little-bit_product-944x452.jpg) no-repeat scroll left top;
+  top: 200px;
+  display: block;
+  height: 452px;
+  left: 252px;
+  position: absolute;
+  text-indent: -100%;
+  width: 944px;
+  overflow: hidden;
+}
+
 /* HELPER */
 .none {
   display: none;
