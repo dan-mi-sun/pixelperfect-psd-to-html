@@ -4,58 +4,48 @@ body {
 
 .wrapper {
   width: 936px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
 }
 header {
   height: 110px;
   margin-bottom: 50px;
 }
 
-.logo-container {
-  position: relative;
-  display: inline;
-  float: left;
+.logo {
   width: 240px;
+  height: 100%;
+  float: left;
+  position: relative;
 }
 
-.alb-logo {
-  background: rgba(0, 0, 0, 0) url(../img/alb-logotype.png) no-repeat scroll left top;
-  top: 54px;
-  display: block;
-  height: 48px;
-  left: 94px;
-  position: absolute;
-  text-indent:-100%;
-  width: 130px;
-  overflow: hidden;
+.wrapper a {
+  text-decoration: none;
 }
 
 .icon {
-  background: transparent url('../img/a-little-bit_icons_50x226.png') no-repeat top right;
-  display: block;
-  height: 84px;
+  width: 96px;
+  height: 96px;
+  background: url("../img/a-little-bit_icons_50x226.png") no-repeat center #fb46ca;
   background-position-x: 24px;
-  background-position-y: -4px;
-  padding-right: 86px;
-}
-
-b.icon-bulb {
-  width: 94px;
-  height: 95px;
-  background-color: #FB46CA;
+  background-position-y: -2px;
+  border-radius: 100%;
+  position: absolute;
+  bottom: 0;
   display: block;
-/*  position: absolute;
-  top: 0px;
-  left: 0px; */
-  border-radius: 100px;
 }
 
-b.bar {
-  width: 936px;
-  margin-left: auto;
-  margin-right: auto;
+.alb-logo {
+  background: url("../img/alb-logotype.png") no-repeat bottom left;
+  height: 100%;
+  width: 144px;
+  float: right;
 }
+
+/* b.bar { */
+/*   width: 936px; */
+/*   margin-left: auto; */
+/*   margin-right: auto; */
+/* } */
 
 /* START NAV MENU */
 
@@ -89,7 +79,7 @@ nav ol li a {
   white-space: nowrap;
   height:30px; /* Width and height of top-level nav items */
   width:70px;
-  text-align:center;}
+text-align:center;}
 
 .cart-container {
   display: block;
