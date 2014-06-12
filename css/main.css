@@ -130,6 +130,114 @@ a.sprite-icons {
   overflow: hidden;
 }
 
+.purchase-container {
+  height: 100px;
+  width: 936px;
+  top: 700px;
+  position: absolute;
+  /* background-color: yellow; */
+}
+
+.paperback {
+  display: block;
+  position: relative;
+  float: left;
+  background-color: yellow;
+  height: 72px;
+  width: 336px;
+  left: 240px;
+  border-radius: 15%;
+}
+
+.paperback-icon {
+  background: transparent url('../img/a-little-bit_icons_50x226.png') no-repeat top right;
+  display: block;
+  height: 84px;
+  background-position-x: 10px;
+  background-position-y: -147px;
+  padding-right: 86px;
+}
+
+.paperback-text {
+  display: block;
+  position: absolute;
+  height: 95px;
+  left: 82px;
+  top: 19px;
+  text-transform: uppercase;
+}
+
+.paperback-postage {
+  display: block;
+  position: absolute;
+  height: 95px;
+  left: 82px;
+  top: 45px;
+  text-transform: uppercase;
+}
+
+.paperback-buy {
+  display: block;
+  position: relative;
+  float: left;
+  background-color: red;
+  height: 41px;
+  width: 96px;
+  left: 241px;
+  top: -70px;
+  border-radius: 15%;
+}
+
+.ebook {
+  display: block;
+  position: absolute;
+  float: left;
+  background-color: yellow;
+  height: 72px;
+  width: 336px;
+  left: 600px;
+  border-radius: 15%;
+}
+
+.ebook-icon {
+  background: transparent url('../img/a-little-bit_icons_50x226.png') no-repeat top right;
+  display: block;
+  height: 84px;
+  background-position-x: 12px;
+  background-position-y: -220px;
+  padding-right: 86px;
+}
+
+.ebook-text {
+  display: block;
+  position: absolute;
+  height: 95px;
+  left: 100px;
+  top: 19px;
+  text-transform: uppercase;
+}
+
+.ebook-postage {
+  display: block;
+  position: absolute;
+  height: 95px;
+  left: 100px;
+  top: 45px;
+  text-transform: uppercase;
+}
+
+.ebook-buy {
+  display: block;
+  position: relative;
+  float: left;
+  background-color: red;
+  height: 41px;
+  width: 96px;
+  left: 241px;
+  top: -70px;
+  border-radius: 15%;
+}
+
 /* HELPER */
 .none {
   display: none;
