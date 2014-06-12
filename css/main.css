@@ -73,38 +73,48 @@ nav ul li a {
   text-decoration: none;
 }
 
-.cart-container {
-  display: block;
-  position: relative;
-  float: left;
-  background-color: yellow;
-  height: 41px;
+/* CART */
+
+.cart-wrapper {
+  height: 100%;
   width: 96px;
-  left: 70px;
-  border-radius: 15%;
+  float: left;
 }
 
-b.cart-number {
-  width: 27px;
-  height: 27px;
-  background-color: red;
-  display: block;
+.cart-container {
+  width: 96px;
+  height: 37px;
+  background-color: #aea9a9;
+  margin-top: 20px;
+  border-radius: 7px;
+  position: relative;
+  cursor: pointer;
+}
+
+.cart-number {
+  height: 26px;
+  width: 26px;
+  border-radius: 100%;
+  background-color: #d7d4d4;
   position: absolute;
-  top: 0px;
-  left: 0px; 
-  border-radius: 100px;
+  margin: 5px 0 0 5px;
+  text-align: center;
+  line-height: 26px;
 }
 
-a.sprite-icons {
+.cart-icon {
   background: transparent url('../img/a-little-bit_icons_50x226.png') no-repeat top right;
   display: block;
-  height: 39px;
-  background-position-x: 38px;
-  background-position-y: -104px;
+  background-position-x: 93px;
+  background-position-y: -108px;
   padding-right: 86px;
+  width: 65px;
+  height: 100%;
+  float: right;
 }
 
 /* MAIN PRODUCTS */
+
 .main-products {
   height: 645px;
 }
@@ -137,7 +147,6 @@ a.sprite-icons {
 
 .purchase-container {
   height: 97px;
-  /* background-color: yellow; */
 }
 
 .ebook {
@@ -192,7 +201,6 @@ a.sprite-icons {
 .details p {
   font-size: 16px;
 }
-
 
 .buy {
   height: 100%;
