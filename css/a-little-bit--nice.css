@@ -1,0 +1,152 @@
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/*
+DEV CLASSES
+*/
+
+[class*='col--'],
+.grid ,
+.module{
+/*	background-color: rgba(0,0,0,.2);*/
+}
+/* END DEV CLASSES*/
+/* 
+<div class="grid">
+	<!-- 100% wide -->
+	</div> 
+*/
+
+/*
+Stops grid collapse due to column float.
+*/
+.grid:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*
+GRID PAD 
+Outside gutter or space around grid content.
+*/
+.grid-pad {
+	padding-right: 0;
+	padding-left: 2%;
+}
+.grid-pad > [class*='col--']:last-of-type {
+  padding-right: 2%;
+}
+.grid-pad--half {
+	padding-right: 0;
+	padding-left: 2%;
+}
+.grid-pad--half > [class*='col--']:last-of-type {
+  padding-right: 1%;
+}
+
+/*
+END GRID PAD
+*/
+
+[class*='col--'] {
+	float: left;
+	padding-right: 2%;
+}
+[class*='col--']:last-of-type {
+  padding-right: 0;
+}
+.grid-pad--half > [class*='col--'] {
+	float: left;
+	padding-right: 1%;
+}
+
+.col--one-of-eight {
+	width: 12.5%;
+}
+.col--two-of-eight,
+.col--one-of-four {
+	width:25%;
+}
+.col--three-of-eight {
+	width: 37.5%;
+}
+.col--four-of-eight,
+.col--one-half {
+	width: 50%;
+}
+.col--five-of-eight {
+	width: 62.5%;
+}
+.col--six-of-eight,
+.col--three-of-four {
+	width: 75%;
+}
+.col--seven-of-eight {
+	width: 87.5%;
+}
+.one-whole {
+	width: 100%;
+}
+
+.push--one-of-eight {
+	margin-left: 12.5%;
+}
+.push--two-of-eight {
+	margin-left: 25%;
+}
+.push--three-of-eight {
+	margin-left: 37.5%;
+}
+.push--four-of-eight {
+	margin-left: 50%;
+}
+.push--five-of-eight {
+	margin-left: 62.5%;
+}
+.push--six-of-eight {
+	margin-left: 75%;
+}
+.push--seven-of-eight {
+	margin-left: 87.5%;
+}
+/* HAND */
+@media screen and (min-width: 320px) and (max-width: 767px) {
+
+
+}/* END @media screen and (min-width: 320px) and (max-width: 767px)*/
+/* 
+PALM
+*/
+@media screen and (min-width: 768px) and (max-width: 989px) {
+
+
+}/* END PALM */
+/*
+LAP
+*/
+@media screen and (min-width: 990px) and (max-width: 1357px) {
+
+}/* END LAP*/
+/*
+DESK
+*/
+@media screen and (min-width: 1358px) {
+
+} /* END DESK */
+/* 
+PALM & ABOVE
+*/
+@media screen and (min-width: 768px){
+
+
+}/* END PALM & ABOVE */
+/*
+LAP & ABOVE
+*/
+@media screen and (min-width: 990px) {
+
+}/* END LAP*/
