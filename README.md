@@ -1,8 +1,8 @@
-# We Got Coders Week 2 Day 9-10 Coursework
+# We Got Coders Week 2 Coursework
 
 We Got Coders is a consultancy that provides experts in agile web development, specialising in Ruby technology.
 
-wegotcoders.com/
+http://wegotcoders.com/
 
 
 ##pixelperfect-psd-to-html
