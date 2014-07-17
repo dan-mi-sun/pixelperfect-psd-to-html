@@ -20,3 +20,17 @@ http://danielsun.co.uk/psd-to-html/pixel-perfect.html
 ### Notes
 http://dan-mi-sun.github.io/week2day10-photoshop-commands/
 
+####Notes from WeGotCoders:
+http://dan-mi-sun.github.io/
+
+http://dan-mi-sun.github.io/wegotcoders/why-code-with-we-got-coders/
+
+http://dan-mi-sun.github.io/reflections-on-8-weeks-with-we-got-coders/
+
+
+####Contact
+twitter: @dan_mi_sun
+
+gmail: dan.mi.sun@gmail.com
+
+uk.linkedin.com/in/danielsundigital/
